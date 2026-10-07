@@ -5,6 +5,7 @@
 }
 
 body {
+    width: 100%;
     background-color: black;
     color: white;
     font-family: "Bebas Neue", sans-serif;
@@ -53,12 +54,13 @@ body {
 }
 .sidebar{
     width: 4rem;
-    height: 13rem;
+    height:220px;
     background-color: blueviolet;
     position: relative;
     top: 8rem;
     left: 3rem;
     justify-content: space-between;
+    border-radius: 3rem;
 }
 .sidebar ul{
    list-style: none;
